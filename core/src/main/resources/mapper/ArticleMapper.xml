@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.blog.core.dao.ArticleDao">
+    <resultMap id="rm" type="com.blog.core.po.ArticlePo">
+        <result property="title" column="title"/>
+        <result property="userId" column="user_id"/>
+        <result property="coverImage" column="cover_image"/>
+        <result property="content" column="content"/>
+        <result property="contentMd" column="content_md"/>
+        <result property="isMarkdown" column="is_markdown"/>
+        <result property="typeId" column="type_id"/>
+        <result property="description" column="description"/>
+        <result property="comment" column="comment"/>
+        <result property="typeName" column="typeName"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="typeDescription" column="descriptionType"/>
+    </resultMap>
+
+    <select id="getArticleList" parameterType="com.blog.core.dto.Request.QueryRequest" resultMap="rm">
+        SELECT
+        t1.*,
+        t2.name AS typeName
+        FROM `biz_article` t1
+        inner join biz_type t2 on t2.id=t1.type_id
+        <where>
+            1=1
+            <if test="tagId!=0">
+              AND t1.id in (select article_id from biz_article_tags where tag_id=#{tagId})
+            </if>
+            <if test="typeId!=0">
+              AND t1.type_id =#{typeId}
+            </if>
+            <if test="keyword!=null">
+            AND t1.keywords like '%${keyword}%'
+            </if>
+        </where>
+        ORDER BY t1.create_time DESC
+    </select>
+
+    <select id="getAllTag" resultType="com.blog.core.po.TagPo">
+        select t1.name,t1.id,t1.description FROM biz_tags t1
+    </select>
+
+    <select id="getAllType" resultType="com.blog.core.po.TypePo">
+        select t1.id,t1.pid,t1.name,t1.description,t1.icon,t1.sort FROM biz_type t1 WHERE t1.available=1
+    </select>
+
+    <select id="getTagByArticleId" resultType="com.blog.core.po.TagPo" >
+        select t1.* from biz_tags t1
+        where t1.id in (select t2.tag_id from biz_article_tags t2 where t2.article_id=#{articleId})
+    </select>
+
+    <select id="getAttributeByIds" resultType="com.blog.core.po.ArticleAttributePo">
+        SELECT t1.id as articleId,l.lookCount as lookCount,likeCount as loveCount,commentCount as commentCount from biz_article t1
+        left join (select article_id,COUNT(*) AS lookCount from  biz_article_look  GROUP BY article_id ) l on l.article_id = t1.id
+        left join (select article_id,COUNT(*) AS likeCount from  biz_article_love  GROUP BY article_id  ) love on love.article_id = t1.id
+        left join (select sid,COUNT(*) AS commentCount from  biz_comments t2 WHERE t2.status = 2  GROUP BY sid) comments on comments.sid = t1.id
+        <where>
+            t1.id in<foreach collection="list" item="item" separator="," open="(" close=")">
+            #{item}
+          </foreach>
+        </where>
+    </select>
+
+    <select id="getArticleById" resultMap="rm">
+        SELECT
+            t1.*,
+            t2.name AS typeName,
+            t2.description AS descriptionType
+            FROM `biz_article` t1
+            inner join biz_type t2 on t2.id=t1.type_id
+            <where>
+                <if test="id!=null">
+                    t1.id = #{id}
+                </if>
+            </where>
+    </select>
+
+
+
+</mapper>

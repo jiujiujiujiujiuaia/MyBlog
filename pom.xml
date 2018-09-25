@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.blog</groupId>
+    <artifactId>parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>parent</name>
+    <description>Demo project for Spring Boot</description>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.1.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <modules>
+        <module>web</module>
+        <module>core</module>
+    </modules>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+             </dependency>
+            <dependency>
+                <groupId>com.blog</groupId>
+                <artifactId>core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+            <version>1.16.20</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <!--<profiles>-->
+        <!--&lt;!&ndash;默认开启dev&ndash;&gt;-->
+        <!--<profile>-->
+            <!--<id>dev</id>-->
+            <!--<activation>-->
+                <!--<activeByDefault>true</activeByDefault>-->
+            <!--</activation>-->
+            <!--<properties>-->
+                <!--<profileActive>dev</profileActive>-->
+            <!--</properties>-->
+            <!--<build>-->
+                <!--&lt;!&ndash; 产生的构件的文件名，默认值是${artifactId}-${version}&ndash;&gt;-->
+                <!--<finalName>${project.artifactId}-${project.version}</finalName>-->
+            <!--</build>-->
+        <!--</profile>-->
+        <!--&lt;!&ndash;测试配置&ndash;&gt;-->
+        <!--<profile>-->
+            <!--<id>test</id>-->
+            <!--<properties>-->
+                <!--<profileActive>test</profileActive>-->
+            <!--</properties>-->
+            <!--<build>-->
+                <!--&lt;!&ndash; 产生的构件的文件名&ndash;&gt;-->
+                <!--<finalName>${project.artifactId}</finalName>-->
+            <!--</build>-->
+        <!--</profile>-->
+        <!--&lt;!&ndash;生产配置&ndash;&gt;-->
+        <!--<profile>-->
+            <!--<id>prod</id>-->
+            <!--<properties>-->
+                <!--<profileActive>prod</profileActive>-->
+            <!--</properties>-->
+            <!--<build>-->
+                <!--&lt;!&ndash; 产生的构件的文件名&ndash;&gt;-->
+                <!--<finalName>${project.artifactId}</finalName>-->
+            <!--</build>-->
+        <!--</profile>-->
+    <!--</profiles>-->
+
+    <!--<build>-->
+        <!--&lt;!&ndash; profile对资源的操作 &ndash;&gt;-->
+        <!--<resources>-->
+            <!--<resource>-->
+                <!--<directory>src/main/resources</directory>-->
+                <!--<excludes>-->
+                    <!--<exclude>application*.properties</exclude>-->
+                <!--</excludes>-->
+            <!--</resource>-->
+            <!--<resource>-->
+                <!--<directory>src/main/resources</directory>-->
+                <!--&lt;!&ndash; 是否替换@xx@表示的maven properties属性值 &ndash;&gt;-->
+                <!--<filtering>true</filtering>-->
+                <!--<includes>-->
+                    <!--<include>application.properties</include>-->
+                    <!--<include>application-${profileActive}.properties</include>-->
+                <!--</includes>-->
+            <!--</resource>-->
+        <!--</resources>-->
+    <!--</build>-->
+<build>
+    <resources>
+        <resource>
+            <directory>src/main/resources</directory>
+        </resource>
+    </resources>
+</build>
+
+</project>
