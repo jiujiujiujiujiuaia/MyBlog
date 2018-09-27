@@ -15,14 +15,17 @@
         <result property="createTime" column="create_time"/>
         <result property="updateTime" column="update_time"/>
         <result property="typeDescription" column="descriptionType"/>
+        <result property="user" column="nickName"/>
     </resultMap>
 
     <select id="getArticleList" parameterType="com.blog.core.dto.Request.QueryRequest" resultMap="rm">
         SELECT
         t1.*,
-        t2.name AS typeName
+        t2.name AS typeName,
+        t3.nickname AS nickName
         FROM `biz_article` t1
         inner join biz_type t2 on t2.id=t1.type_id
+        inner join  sys_user t3 on t3.id = t1.user_id
         <where>
             1=1
             <if test="tagId!=0">
@@ -76,6 +79,10 @@
                 </if>
             </where>
     </select>
+
+    <insert id="insert">
+        insert into biz_article_look(article_id) values(#{id})
+    </insert>
 
 
 

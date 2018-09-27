@@ -91,7 +91,7 @@
                             <strong>${article.title}</strong>
                         </h1>
                     </div>
-                    <div class="blog-info-body ${article.isMarkdown?string('markdown-body editor-preview-active-side', '')}">
+                    <div class="blog-info-body markdown-body editor-preview-active-side">
                         ${article.content}
                     </div>
                     <div class="separateline"><span>正文到此结束</span></div>

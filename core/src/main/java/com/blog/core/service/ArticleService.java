@@ -53,6 +53,8 @@ public class ArticleService {
         articles.add(article);
         buildParam(articles,articleAttributePos);
         model.addAttribute("article",articles.get(0));
+        //插入一条浏览量
+        dao.insert(articleId);
         return model;
     }
 

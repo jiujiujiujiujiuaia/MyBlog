@@ -261,9 +261,9 @@
                     }
                 }
             },
-            ajaxError: function () {
-                $.alert.error("网络超时！");
-            }
+            // ajaxError: function () {
+            //     $.alert.error("网络超时！");
+            // }
         }
     });
     $.extend({

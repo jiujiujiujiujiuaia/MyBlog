@@ -27,4 +27,6 @@ public interface ArticleDao {
     List<ArticleAttributePo> getAttributeByIds(List<Long> articleIds);
 
     ArticlePo getArticleById(@Param("id")Long id);
+
+    void insert(@Param("id")Long id);
 }

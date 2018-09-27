@@ -19,6 +19,7 @@
     </parent>
 
     <modules>
+        <module>admin</module>
         <module>web</module>
         <module>core</module>
     </modules>

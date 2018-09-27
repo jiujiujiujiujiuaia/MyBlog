@@ -85,12 +85,13 @@
                             </div>
                             <span class="title-l"></span>
                             <span class="entry-meta">
-                                <span class="date" title="文章发表日期" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-calendar-o fa-fw"></i>${item.createTime?string('yyyy-MM-dd')}</span>
-                                <span class="views" title="文章阅读次数" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-eye fa-fw"></i>浏览(${item.lookCount!(0)})</span>
-                                <span class="comment" title="文章评论次数" data-toggle="tooltip" data-placement="bottom">
+                                    <span class="date" title="文章发表日期" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-calendar-o fa-fw"></i>${item.createTime?string('yyyy-MM-dd')}</span>
+                                    <span class="views" title="文章阅读次数" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-eye fa-fw"></i>浏览(${item.lookCount!(0)})</span>
+                                    <span class="comment" title="文章评论次数" data-toggle="tooltip" data-placement="bottom">
                                     <a href="${config.siteUrl}/article/${item.id?c}#comment-box" rel="external nofollow">
                                         <i class="fa fa-comments-o fa-fw"></i>评论(${item.commentCount!(0)})
                                     </a>
+                                        <span class="comment" title="作者" data-toggle="tooltip" data-placement="bottom"><i class="fa"></i>作者：${item.user?if_exists}</span>
                                 </span>
                             </span>
                             <div class="clear"></div>
