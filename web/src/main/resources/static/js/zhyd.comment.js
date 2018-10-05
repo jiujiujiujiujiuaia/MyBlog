@@ -117,8 +117,8 @@ $.extend({
             }
             this.sid = sid;
             $.ajax({
-                type: "post",
-                url: "/api/comments",
+                type: "get",
+                url: "/article/comments",
                 data: {sid: sid, pageNumber: pageNumber || 1},
                 success: function (json) {
                     $.alert.ajaxSuccess(json);
@@ -160,12 +160,12 @@ $.extend({
                                     '           <div class="user-info">' +
                                     '              <div class="nickname">' +
                                     '                 <a target="_blank" href="' + userUrl + '" rel="external nofollow"><strong>' + comment.nickname + '</strong></a>' +
-                                    '                <i class="icons os-' + comment.osShortName + '" title="' + comment.os + '"></i>' +
-                                    '                <i class="icons browser-' + comment.browserShortName + '" title="' + comment.browser + '"></i>' +
+                                    // '                <i class="icons os-' + comment.osShortName + '" title="' + comment.os + '"></i>' +
+                                    // '                <i class="icons browser-' + comment.browserShortName + '" title="' + comment.browser + '"></i>' +
                                     '              </div>            ' +
                                     '             <div class="timer">' +
                                     '                  <i class="fa fa-clock-o fa-fw"></i>' + comment.createTimeString +
-                                    '                  <i class="fa fa-map-marker fa-fw"></i>' + comment.address +
+                                    // '                  <i class="fa fa-map-marker fa-fw"></i>' + comment.address +
                                     '              </div>' +
                                     '          </div>' +
                                     '        </div>' +
@@ -318,10 +318,10 @@ $.extend({
                 console.log(data);
                 $.ajax({
                     type: "post",
-                    url: "/api/comment",
+                    url: "/article/comment",
                     data: data + '&sid=' + $.comment.sid,
                     success: function (json) {
-                        $.alert.ajaxSuccess(json);
+                        $.alert.ajaxSuccess(json.message);
                         $.comment._commentDetailModal.modal('hide');
 
                         setTimeout(function () {

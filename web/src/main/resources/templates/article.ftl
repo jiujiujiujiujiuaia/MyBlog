@@ -235,7 +235,7 @@
     </div>
 </div>
 <@footer>
-    <script src="https://v1.hitokoto.cn/?encode=js&c=d&select=%23hitokoto" defer></script>
+    <#--<script src="https://v1.hitokoto.cn/?encode=js&c=d&select=%23hitokoto" defer></script>-->
     <script type="text/javascript" src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 	<script type="text/javascript" src="https://cdn.bootcss.com/simplemde/1.11.2/simplemde.min.js"></script>
 </@footer>

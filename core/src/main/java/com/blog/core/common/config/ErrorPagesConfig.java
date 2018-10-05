@@ -32,12 +32,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * 自定义的异常页面配置
- *
- * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
- * @version 1.0
- * @website https://www.zhyd.me
- * @date 2018/4/16 16:26
- * @since 1.0
  */
 @Component
 public class ErrorPagesConfig {

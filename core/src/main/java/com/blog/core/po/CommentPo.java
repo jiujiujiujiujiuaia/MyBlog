@@ -29,5 +29,5 @@ public class CommentPo extends BasePo {
     private String remark;
     private Integer support;
     private Integer oppose;
-
+    private String createTimeString;
 }

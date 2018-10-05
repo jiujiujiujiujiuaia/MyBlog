@@ -6,6 +6,7 @@ import java.util.List;
 
 @Data
 public class PageHelper<T> {
+    private int total;
     //结果集合
     private List<T> list;
     //总页数
@@ -22,6 +23,7 @@ public class PageHelper<T> {
     private int pageNum;
     public PageHelper(int total,int currentPage,int limit,List<T> list) {
          if (total > 0) {
+             this.total = total;
              this.list = list;
              this.pages = total % limit>0 ? total/limit+1:total/limit;
              pageNum = currentPage;

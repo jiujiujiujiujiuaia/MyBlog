@@ -1,9 +1,12 @@
 package com.blog.core.service;
 
 import com.blog.core.dao.ArticleDao;
+import com.blog.core.dto.Request.CommentRequest;
 import com.blog.core.dto.Request.QueryRequest;
+import com.blog.core.enums.CommentStatus;
 import com.blog.core.po.ArticleAttributePo;
 import com.blog.core.po.ArticlePo;
+import com.blog.core.po.CommentPo;
 import com.blog.core.po.TagPo;
 import com.blog.core.util.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,9 +14,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
 
 import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 @Service
@@ -21,6 +25,7 @@ public class ArticleService {
     @Autowired
     private ArticleDao dao;
 
+    //这里的分页还要完善（https://juejin.im/entry/59195dd744d904006c6dd7c1）
     public Model getIndex(QueryRequest request, Model model){
         int start = (request.getPageNumber()-1)*request.getPageSize();
         int last = request.getPageNumber()*request.getPageSize();
@@ -56,6 +61,46 @@ public class ArticleService {
         //插入一条浏览量
         dao.insert(articleId);
         return model;
+    }
+
+    public Map<String,Object> getComments(CommentRequest request){
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        HashMap<String,Object> map = new HashMap<>();
+        int start = (request.getPageNumber()-1) * request.getPageSize();
+        int last = request.getPageNumber() * request.getPageSize();
+        List<CommentPo> commentPos = dao.getComments(request.getSid());
+        int total = commentPos.size();
+        if(total>0){
+            if(total>request.getPageSize()) {
+                if (total < last && total > start) {
+                    last = total;
+                }
+                commentPos = commentPos.subList(start, last);
+            }
+           commentPos.forEach(p->{
+                   p.setCreateTimeString(simpleDateFormat.format(p.getCreateTime()));
+           });
+            PageHelper<CommentPo> pageHelper = new PageHelper(total,request.getPageNumber(),request.getPageSize(),commentPos);
+            if(pageHelper!=null){
+                map.put("commentList", pageHelper.getList());
+                map.put("total", pageHelper.getTotal());
+                map.put("hasNextPage", pageHelper.isHasNextPage());
+                map.put("nextPage", pageHelper.getNextPage());
+            }
+        }
+        return map;
+    }
+
+    public void publishComment(CommentPo commentPo){
+        Pattern pattern = Pattern.compile("<p>(.*)</p>");
+        Matcher matcher = pattern.matcher(commentPo.getContent());
+        if(matcher.find()){
+            commentPo.setContent(matcher.group(1));
+        }
+        commentPo.setStatus(CommentStatus.APPROVED.getCode());
+        commentPo.setCreateTime(new Date());
+        commentPo.setUpdateTime(new Date());
+        dao.insertComments(commentPo);
     }
 
     public void buildParam(List<ArticlePo> articles,List<ArticleAttributePo> attributes){

@@ -18,6 +18,38 @@
         <result property="user" column="nickName"/>
     </resultMap>
 
+    <resultMap id="comment" type="com.blog.core.po.CommentPo">
+        <result property="id" jdbcType="BIGINT" column="id"/>
+        <result property="sid" jdbcType="BIGINT" column="sid"/>
+        <result property="userId" jdbcType="BIGINT" column="user_id"/>
+        <result property="pid" jdbcType="BIGINT" column="pid"/>
+        <result property="qq" jdbcType="VARCHAR" column="qq"/>
+        <result property="nickname" jdbcType="VARCHAR" column="nickname"/>
+        <result property="avatar" jdbcType="VARCHAR" column="avatar"/>
+        <result property="email" jdbcType="VARCHAR" column="email"/>
+        <result property="url" jdbcType="VARCHAR" column="url"/>
+        <result property="status"  column="status"/>
+        <result property="ip" jdbcType="VARCHAR" column="ip"/>
+        <result property="lng" jdbcType="VARCHAR" column="lng"/>
+        <result property="lat" jdbcType="VARCHAR" column="lat"/>
+        <result property="address" jdbcType="VARCHAR" column="address"/>
+        <result property="os" jdbcType="VARCHAR" column="os"/>
+        <result property="osShortName" jdbcType="VARCHAR" column="os_short_name"/>
+        <result property="browser" jdbcType="VARCHAR" column="browser"/>
+        <result property="browserShortName" jdbcType="VARCHAR" column="browser_short_name"/>
+        <result property="content" jdbcType="VARCHAR" column="content"/>
+        <result property="remark" jdbcType="VARCHAR" column="remark"/>
+        <result property="support" jdbcType="INTEGER" column="support"/>
+        <result property="oppose" jdbcType="INTEGER" column="oppose"/>
+        <result property="createTime" jdbcType="TIMESTAMP" column="create_time"/>
+        <result property="updateTime" jdbcType="TIMESTAMP" column="update_time"/>
+        <association property="parent" javaType="com.blog.core.po.CommentPo">
+            <result property="id" jdbcType="BIGINT" column="parent_id"/>
+            <result property="nickname" jdbcType="VARCHAR" column="parent_nickname"/>
+            <result property="content" jdbcType="VARCHAR" column="parent_content"/>
+        </association>
+    </resultMap>
+
     <select id="getArticleList" parameterType="com.blog.core.dto.Request.QueryRequest" resultMap="rm">
         SELECT
         t1.*,
@@ -84,6 +116,23 @@
         insert into biz_article_look(article_id) values(#{id})
     </insert>
 
+    <select id="getComments" resultMap="comment">
+        SELECT t1.*,t2.id as parent_id,t2.nickname as parent_nickname,t2.content as parent_content FROM `biz_comments` t1
+            left join biz_comments t2 on t1.pid = t2.id
+        <where>
+            t1.`status` = 2
+            <if test="sid!=0">
+                And t1.sid = #{sid}
+            </if>
+        </where>
+        ORDER BY create_time DESC
+
+    </select>
+
+    <insert id = "insertComments" parameterType="com.blog.core.po.CommentPo">
+        insert into biz_comments(sid,pid,content,avatar,qq,nickname,email,url,create_time,update_time,status)
+        values(#{sid},#{pid},#{content},#{avatar},#{qq},#{nickname},#{email},#{url},#{createTime},#{updateTime},#{status})
+    </insert>
 
 
 </mapper>

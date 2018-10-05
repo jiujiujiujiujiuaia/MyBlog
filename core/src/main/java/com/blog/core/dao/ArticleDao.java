@@ -1,10 +1,7 @@
 package com.blog.core.dao;
 
 import com.blog.core.dto.Request.QueryRequest;
-import com.blog.core.po.ArticleAttributePo;
-import com.blog.core.po.ArticlePo;
-import com.blog.core.po.TagPo;
-import com.blog.core.po.TypePo;
+import com.blog.core.po.*;
 import com.github.pagehelper.Page;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
@@ -29,4 +26,10 @@ public interface ArticleDao {
     ArticlePo getArticleById(@Param("id")Long id);
 
     void insert(@Param("id")Long id);
+
+    List<CommentPo> getComments(@Param("sid")Long sid);
+
+    void insertComments(CommentPo commentPo);
+
+
 }
