@@ -2,21 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a96a66d-3c0e-47f7-bc29-1eab9290ade4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/blog/admin/AdminApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/css/jquery-confirm.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/css/zhyd.core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/images/chooseImg_N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/images/chooseImg_S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/images/reward/wx_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/images/reward/wx_reward_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/images/reward/zfb_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/images/spider/cookie/cookie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/images/spider/uid/cnblogs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/images/spider/uid/csdn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/images/spider/uid/imooc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/images/spider/uid/iteye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/js/ajaxfileupload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/js/codemirror.inline-attachment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/js/inline-attachment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/js/jquery-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/js/jquery.smartWizard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/js/validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/js/zhyd.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/js/zhyd.publish-article.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/js/zhyd.upload-preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/js/zyd.table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/js/zyd.tool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/article/list.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/article/publish-md.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/article/publish.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/article/tags.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/article/types.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/comment/list.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/config.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/error/401.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/error/403.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/error/404.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/error/500.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/icons.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/include/macros.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/layout/footer.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/layout/setting.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/layout/sidebar.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/link/list.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/login.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/notice/list.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/notification.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/remover/list.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/resources/list.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/role/list.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/shiro.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/template/list.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/update/list.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/user/list.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/test/java/com/blog/admin/AdminApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/AsyncConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/AsyncConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/ErrorPagesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/ErrorPagesConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/MybatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/TomcatConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/TomcatConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/blog/core/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/blog/core/dao/ArticleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/blog/core/po/CommentPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/blog/core/po/CommentPo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/blog/core/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/blog/core/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/blog/core/util/PageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/blog/core/util/PageHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/mapper/ArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/mapper/ArticleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/js/zhyd.comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/static/js/zhyd.comment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/article.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/article.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/blog/core/enums/CommentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/blog/core/enums/CommentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/blog/core/util/BeanMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/blog/core/util/BeanMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/blog/core/util/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/blog/core/util/RestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/com/blog/core/CoreApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/com/blog/core/CoreApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,6 +94,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BlogSystem$WebApplication.ic" NAME="WebApplication Coverage Results" MODIFIED="1539605288422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -46,65 +114,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="zhyd.comment.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/js/zhyd.comment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="342" column="13" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/service/ArticleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="104" selection-start-line="104" selection-end-line="104" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/util/PageHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ApiController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/ApiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="19" column="89" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="89" />
+            <state relative-caret-position="161">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4531">
+              <caret line="197" column="33" selection-start-line="197" selection-start-column="33" selection-end-line="197" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/index.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2001">
+              <caret line="87" column="178" selection-start-line="87" selection-start-column="172" selection-end-line="87" selection-end-column="178" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeanMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/util/BeanMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.ftl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/layout/header.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FreeMarkerConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/FreeMarkerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomTagDirective.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/tag/CustomTagDirective.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="35" column="102" selection-start-line="35" selection-start-column="102" selection-end-line="35" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrontComponentService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/service/FrontComponentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -112,8 +192,8 @@
       <file leaf-file-name="ArticleController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/ArticleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="161">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,17 +201,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/common/entity/DataResult.java">
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-              <folding>
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="115">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -187,16 +261,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/resources/templates/archives.ftl" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/application-test.properties" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/dao/FrontComponentService.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/util/BeanMap.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/po/Type.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/enums/CommentStatus.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/tag/CustomTagDirective.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/dao/FrontComponentDao.java" />
         <option value="$PROJECT_DIR$/core/src/main/resources/mapper/FrontComponentMapper.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/service/FrontComponentService.java" />
@@ -211,8 +275,6 @@
         <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/po/ArticleAttributePo.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/static/js/zhyd.core.js" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/blog/web/WebApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/admin/pom.xml" />
         <option value="$PROJECT_DIR$/admin/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/blog/admin/AdminApplication.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/index.ftl" />
@@ -222,9 +284,7 @@
         <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/MybatisConfig.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/TomcatConfig.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/service/ApiService.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/util/RestClient.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/apiController.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/dto/Request/CommentRequest.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/po/CommentPo.java" />
@@ -233,11 +293,25 @@
         <option value="$PROJECT_DIR$/core/src/main/resources/mapper/ArticleMapper.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/common/entity/DataResult.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/static/js/zhyd.comment.js" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/ApiController.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/util/PageHelper.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/service/ArticleService.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/ApiController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/blog/web/Copy.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/Copy.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/blog/web/test/B.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/blog/web/test/Copy.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/blog/web/test/A.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/util/RedisCache.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/aspect/RedisAspect.java" />
+        <option value="$PROJECT_DIR$/admin/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/core/src/test/java/com/blog/core/CoreApplicationTests.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/enums/CommentStatus.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/util/BeanMap.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/blog/core/util/RestClient.java" />
+        <option value="$PROJECT_DIR$/core/pom.xml" />
       </list>
     </option>
   </component>
@@ -268,11 +342,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-141" />
-    <option name="y" value="84" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="134" />
+    <option name="width" value="1271" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -282,7 +355,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,7 +403,20 @@
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlogSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlogSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlogSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -340,7 +425,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlogSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -383,16 +467,53 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlogSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlogSystem" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlogSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlogSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlogSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlogSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlogSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlogSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -442,7 +563,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArticleService">
+  <component name="RunManager" selected="Spring Boot.WebApplication">
     <configuration name="ArticleService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.blog.core.service.ArticleService" />
       <module name="core" />
@@ -454,17 +575,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="BeanMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.blog.core.util.BeanMap" />
-      <module name="core" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.blog.core.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="CommentStatus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.blog.core.enums.CommentStatus" />
       <module name="core" />
@@ -472,6 +582,28 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.blog.core.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Copy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.blog.web.Copy" />
+      <module name="web" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.blog.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Copy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.blog.web.test.Copy" />
+      <module name="web" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.blog.web.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -490,29 +622,6 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="WebApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.blog.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.blog.web" />
-      <option name="MAIN_CLASS_NAME" value="com.blog.web.WebApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -528,6 +637,16 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="admin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="admin" />
@@ -571,19 +690,17 @@
       <item itemvalue="Spring Boot.AdminApplication" />
       <item itemvalue="Spring Boot.CoreApplication" />
       <item itemvalue="Spring Boot.WebApplication" />
-      <item itemvalue="JUnit.WebApplicationTests.contextLoads" />
-      <item itemvalue="Application.BeanMap" />
       <item itemvalue="Application.CommentStatus" />
       <item itemvalue="Application.RestClient" />
       <item itemvalue="Application.ArticleService" />
+      <item itemvalue="Application.Copy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Copy" />
         <item itemvalue="Application.ArticleService" />
         <item itemvalue="Application.RestClient" />
         <item itemvalue="Application.CommentStatus" />
-        <item itemvalue="Application.BeanMap" />
-        <item itemvalue="JUnit.WebApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -608,7 +725,12 @@
       <workItem from="1537495300823" duration="2941000" />
       <workItem from="1537520457390" duration="28156000" />
       <workItem from="1537860989289" duration="7861000" />
-      <workItem from="1538619568379" duration="21818000" />
+      <workItem from="1538619568379" duration="28579000" />
+      <workItem from="1539084320242" duration="865000" />
+      <workItem from="1539130690825" duration="1907000" />
+      <workItem from="1539602381240" duration="1485000" />
+      <workItem from="1539604910890" duration="887000" />
+      <workItem from="1540991016682" duration="264000" />
     </task>
     <servers />
   </component>
@@ -627,40 +749,39 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111150000" />
+    <option name="totallyTimeSpent" value="123319000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32838285" />
       <window_info anchor="bottom" id="JRebel Console" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.19364598" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="9" weight="0.6454389" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="5" weight="0.32977098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32302406" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.116838485" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.35910654" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.17697595" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32874355" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46868008" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14604811" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.3281787" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.6443299" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28778625" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.9517685" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2918455" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32980332" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -668,6 +789,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
@@ -733,7 +855,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="73" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/blog/core/service/FrontComponentService.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="77" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -752,167 +882,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/util/BeanMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/util/CheckParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/tag/CustomTagDirective.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/tag/ArticleTagDirective.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/blog/admin/AdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/AsyncConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/ErrorPagesConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/FreeMarkerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/WebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/MybatisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/TomcatConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/dao/ConfigDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/util/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/util/RestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/po/ArticleAttributePo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/po/ArticlePo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/layout/sidebar.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3331" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/layout/quote.ftl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/layout/header.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/about.ftl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -930,13 +899,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/updateLog.ftl">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/enums/CommentStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/dto/Request/QueryRequest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -966,16 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="87" column="178" selection-start-line="87" selection-start-column="172" selection-end-line="87" selection-end-column="178" />
         </state>
       </provider>
     </entry>
@@ -983,10 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-445">
           <caret line="594" column="11" selection-start-line="594" selection-start-column="11" selection-end-line="594" selection-end-column="11" />
-          <folding>
-            <element signature="e#23443#23444#0" expanded="true" />
-            <element signature="e#23515#23516#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,16 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/service/ApiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/common/entity/BasePo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1039,32 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-          <folding>
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/ApiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="19" column="89" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,25 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="342" column="13" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/service/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1108,6 +1001,190 @@
             <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2392">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/service/ApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/WebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="621" column="15" selection-start-line="621" selection-start-column="15" selection-end-line="621" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/Copy.java" />
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/test/B.java" />
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/test/Copy.java" />
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/util/RedisCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13-sources.jar!/org/aspectj/runtime/reflect/JoinPointImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1817">
+          <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13-sources.jar!/org/aspectj/lang/JoinPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1633">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13-sources.jar!/org/aspectj/lang/Signature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/aspect/RedisAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/blog/admin/AdminApplication.java" />
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/com/blog/core/CoreApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/enums/CommentStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/util/RestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/ApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/Controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/blog/web/test/A.java" />
+    <entry file="file://$PROJECT_DIR$/core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4531">
+          <caret line="197" column="33" selection-start-line="197" selection-start-column="33" selection-end-line="197" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2001">
+          <caret line="87" column="178" selection-start-line="87" selection-start-column="172" selection-end-line="87" selection-end-column="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/common/config/FreeMarkerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/tag/CustomTagDirective.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="35" column="102" selection-start-line="35" selection-start-column="102" selection-end-line="35" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/service/FrontComponentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/blog/core/util/BeanMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/layout/header.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
         </state>
       </provider>
     </entry>

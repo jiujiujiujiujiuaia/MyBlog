@@ -13,7 +13,5 @@ public enum CommentStatus {
     public int getCode(){
         return code;
     }
-    public static void main(String[] args){
 
-    }
 }

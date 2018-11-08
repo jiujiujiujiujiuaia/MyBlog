@@ -26,7 +26,5 @@ public class RestClient {
         return response;
     }
 
-    public static void main(String[] args)throws UnirestException{
 
-    }
 }
